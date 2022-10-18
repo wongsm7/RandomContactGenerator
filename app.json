@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "RandomUserGenerator",
-    "slug": "RandomUserGenerator",
+    "name": "RandomContactGenerator",
+    "slug": "RandomContactGenerator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.wongsm7.RandomContactGenerator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ff851f71-c215-4207-9e11-9933a72f413b"
+      }
     }
   }
 }
